@@ -33,5 +33,5 @@ from gsp import GstreamerPlayer
 
 player = GstreamerPlayer(None)
 
-player.queue("/path/to/audio.mp3")
+player.queue("file:///path/to/audio.mp3")
 ```
